@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vue js Bangla Tutorial</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="vue.global.js"></script>
+</head>
+<body>
+    <header>
+        <h2>Vue js 3 Learn</h2>
+    </header>
+
+    <div id="app">
+
+      <input type="text" v-model="firstName" placeholder="Enter first name">
+      <input type="text" v-model="lastName" placeholder="Enter last name">
+      <br>
+    
+      <!-- computed data prppert ba vhinno calculation nye notun property dekhanu dorkar tokhn computed use korbo -->
+      <!-- <p>Your full name is: {{ fullName }}</p>  -->
+
+      <!-- Method event bind korar jonne argument pass korar jonno -->
+      <!-- <p>Your full name is: {{ fullName() }}</p>  -->
+
+      <!-- Watcher use korbo change direction er jonne -->
+      <p>Your full name is: {{ fullName }}</p> 
+     
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
